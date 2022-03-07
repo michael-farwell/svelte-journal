@@ -1,5 +1,8 @@
 <!-- __layout.svelte -->
-<header>Hi, I'm a header</header>
+<script lang="ts">
+  import Header from "$lib/components/Header.svelte";
+</script>
+<Header />
 
 <main>
   <slot />
