@@ -1,6 +1,6 @@
 <!-- Footer.svelte -->
 <footer>
-  <p>MF - 2022</p>
+  <small>MF - 2022</small>
 </footer>
 
 <style>
@@ -12,7 +12,7 @@
         justify-content: space-between;
     }
 
-    p {
+    small {
         margin: 0;
         width: 100%;
         text-align: end;
