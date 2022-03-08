@@ -1,19 +1,19 @@
 <!-- Footer.svelte -->
 <footer>
-  <small>MF - 2022</small>
+  <p>MF - 2022</p>
 </footer>
 
 <style lang="scss">
   footer {
-    padding: 1rem;
+    height: 50px;
     background: lightgray;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
   }
 
-  small {
-    margin: 0;
+  p {
     width: 100%;
     text-align: end;
   }
